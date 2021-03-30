@@ -1,5 +1,5 @@
 .first-container {
-    background: lightblue url("/img/img_tree.gif") no-repeat fixed center;
+    background: lightblue url("img/img_tree.gif") no-repeat fixed center;
     width: 100%;
     padding-top: 30px;
     padding-bottom: 132px;
