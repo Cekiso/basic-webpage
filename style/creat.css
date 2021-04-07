@@ -1,63 +1,86 @@
-.details {
-    width: 100%;
-    display: flex;
-    font-size: 28px;
-    color: palevioletred;
-    justify-content: center;
-}
-
-@media only screen and (max-width: 600px) {
     .details {
-        /* display: block; */
+        width: 100%;
+        display: flex;
+        /* font-size: 28px; */
+        justify-content: center;
     }
-    .okay {
-        height: 150px;
+    
+    h1.okay {
+        margin-top: 41px;
+        text-align: center;
+        margin: 4%;
+        color: palevioletred;
+    }
+    
+    img.okay.okay1 {
+        width: 475px;
+        height: auto;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .details {
+            display: block;
+        }
+        .okay {
+            /* height: 150px; */
+            width: auto;
+            /* margin-top: 80%; */
+        }
+        .okay1 {
+            /* height: 300px; */
+            width: auto;
+            margin-top: -1%;
+        }
+    }
+    
+    .city {
         width: auto;
-        margin-top: 80%;
-    }
-    .okay1 {
-        height: 300px;
-        width: auto;
-        margin-top: -1%;
-    }
-}
-
-.city {
-    width: auto;
-    height: 307px;
-    float: left;
-    margin-right: 2%;
-}
-
-table,
-td,
-th {
-    border: 3px solid black;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 17px;
-}
-
-.pic {
-    width: auto;
-    height: 200px;
-    float: right;
-    margin-left: 2%;
-}
-
-@media only screen and (max-width: 868px) {
-    .places {
-        display: grid;
-        grid-template-columns: 100%;
-        grid-gap: 2%;
-    }
-    .pic1 {
-        width: auto;
-        height: 200px;
+        height: 307px;
         float: left;
         margin-right: 2%;
     }
-}
+    
+    .para,
+    .heading {
+        text-align: center;
+    }
+    
+    table,
+    td,
+    th {
+        border: 3px solid black;
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 17px;
+    }
+    
+    .places {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        grid-gap: 2%;
+    }
+    
+    .pic {
+        width: auto;
+        /* height: 200px; */
+        float: right;
+        margin-left: 2%;
+    }
+    
+    @media only screen and (max-width: 868px) {
+        .places {
+            display: grid;
+            grid-template-columns: 100%;
+            grid-gap: 2%;
+        }
+        .pic1 {
+            width: auto;
+            /* height: 200px; */
+            float: left;
+            margin-right: 2%;
+        }
+    }
